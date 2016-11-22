@@ -57,6 +57,7 @@
             this.btnDong = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
+            this.lblMessage = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -68,9 +69,9 @@
             this.groupBox2.Controls.Add(this.btnSearch);
             this.groupBox2.Controls.Add(this.txtKey);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Location = new System.Drawing.Point(17, 229);
+            this.groupBox2.Location = new System.Drawing.Point(17, 247);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(357, 103);
+            this.groupBox2.Size = new System.Drawing.Size(357, 85);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm Kiếm";
@@ -79,7 +80,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(272, 66);
+            this.button1.Location = new System.Drawing.Point(272, 45);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(39, 23);
             this.button1.TabIndex = 7;
@@ -90,7 +91,7 @@
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnSearch.Location = new System.Drawing.Point(130, 66);
+            this.btnSearch.Location = new System.Drawing.Point(130, 45);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(70, 23);
             this.btnSearch.TabIndex = 6;
@@ -100,7 +101,7 @@
             // 
             // txtKey
             // 
-            this.txtKey.Location = new System.Drawing.Point(130, 40);
+            this.txtKey.Location = new System.Drawing.Point(130, 19);
             this.txtKey.Name = "txtKey";
             this.txtKey.Size = new System.Drawing.Size(181, 20);
             this.txtKey.TabIndex = 0;
@@ -109,7 +110,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 44);
+            this.label4.Location = new System.Drawing.Point(37, 23);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 13);
             this.label4.TabIndex = 5;
@@ -128,11 +129,11 @@
             this.TENCV,
             this.PhuCap,
             this.SoNV});
-            this.dataGridView1.Location = new System.Drawing.Point(389, 31);
+            this.dataGridView1.Location = new System.Drawing.Point(389, 62);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(552, 301);
+            this.dataGridView1.Size = new System.Drawing.Size(552, 270);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting);
             // 
@@ -181,9 +182,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaChucVu);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(17, 31);
+            this.groupBox1.Location = new System.Drawing.Point(17, 62);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(357, 192);
+            this.groupBox1.Size = new System.Drawing.Size(357, 179);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Chức Vụ";
@@ -344,12 +345,22 @@
             this.btnThem.Visible = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
+            // lblMessage
+            // 
+            this.lblMessage.AutoSize = true;
+            this.lblMessage.Location = new System.Drawing.Point(293, 20);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.TabIndex = 20;
+            this.lblMessage.Text = "label6";
+            // 
             // FrmChucVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(971, 409);
+            this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnDong);
@@ -367,6 +378,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -400,6 +412,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TENCV;
         private System.Windows.Forms.DataGridViewTextBoxColumn PhuCap;
         private System.Windows.Forms.DataGridViewTextBoxColumn SoNV;
+        private System.Windows.Forms.Label lblMessage;
 
     }
 }

@@ -1,1 +1,1 @@
-Data Source=YEN\SQLEXPRESS;Initial Catalog=NHOM3_QLNS;Integrated Security=True
+Data Source=.\SQLEXPRESS;Initial Catalog=NHOM3_QLNS;Integrated Security=True
