@@ -152,7 +152,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.CancelButton = this.button2;
-            this.ClientSize = new System.Drawing.Size(460, 144);
+            this.ClientSize = new System.Drawing.Size(431, 144);
             this.Controls.Add(this.lblIconNoiCap);
             this.Controls.Add(this.lblIconNgayCap);
             this.Controls.Add(this.lblIconCMND);

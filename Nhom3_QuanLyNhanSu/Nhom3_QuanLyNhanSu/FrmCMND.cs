@@ -85,7 +85,8 @@ namespace Nhom3_QuanLyNhanSu
                     this.Dispose();
                 }
             }
-            else {
+            else
+            {
                 if (model.Edit(new Entities.CMND() { SOCMND = txtCMND.Text.Trim(), NgayCap = dtNgayCap.Value, NoiCap = validate.formatStringToName(txtNoiCap.Text) }, SOCMND, MaHS) > 0)
                 {
                     SOCMND = txtCMND.Text.Trim();

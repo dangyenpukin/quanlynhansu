@@ -109,28 +109,16 @@ namespace Nhom3_QuanLyNhanSu
             
             ShowDetail(dataGridView1.CurrentRow);
         }
-
-        private void Them()
-        {
-            changeStateButton(false, false, true, false, true);
-            tab.action = ActionForm.THEM;
-
-            EnableTextBox(true);
-            clearInsert();
-            txtMaChucVu.Focus();
-            btnSearch.Enabled = false;
-            dataGridView1.Enabled = false;
-        }
-
         private void LuuLai()
         {
             switch (tab.action)
             {
                 case ActionForm.THEM:
                     CheckMa();
-                    validate.Check(new ValidateParam(ValidateType.NULL, txtTenChucVu.Text, lblIconTenCV,"Vui lòng nhập tên chức vụ"));
-                    validate.Check(new ValidateParam(ValidateType.PRICE, txtPhuCap.Text, lblIconPhuCap,"Phụ cấp phải có dạng tiền tệ."));
-                    if (!validate.Check(lblIconMaCV, lblIconTenCV,lblIconPhuCap)) {
+                    validate.Check(new ValidateParam(ValidateType.NULL, txtTenChucVu.Text, lblIconTenCV, "Vui lòng nhập tên chức vụ"));
+                    validate.Check(new ValidateParam(ValidateType.PRICE, txtPhuCap.Text, lblIconPhuCap, "Phụ cấp phải có dạng tiền tệ."));
+                    if (!validate.Check(lblIconMaCV, lblIconTenCV, lblIconPhuCap))
+                    {
                         MessageBox.Show("Có lỗi. Không thể lưu");
                         return;
                     }
@@ -144,7 +132,7 @@ namespace Nhom3_QuanLyNhanSu
                 case ActionForm.SUA:
                     validate.Check(new ValidateParam(ValidateType.NULL, txtTenChucVu.Text, lblIconTenCV, "Vui lòng nhập tên chức vụ"));
                     validate.Check(new ValidateParam(ValidateType.PRICE, txtPhuCap.Text, lblIconPhuCap, "Phụ cấp phải có dạng tiền tệ."));
-                    if (!validate.Check(lblIconTenCV,lblIconPhuCap))
+                    if (!validate.Check(lblIconTenCV, lblIconPhuCap))
                     {
                         MessageBox.Show("Có lỗi. Không thể lưu");
                         return;
@@ -158,6 +146,19 @@ namespace Nhom3_QuanLyNhanSu
                     break;
             }
         }
+        private void Them()
+        {
+            changeStateButton(false, false, true, false, true);
+            tab.action = ActionForm.THEM;
+
+            EnableTextBox(true);
+            clearInsert();
+            txtMaChucVu.Focus();
+            btnSearch.Enabled = false;
+            dataGridView1.Enabled = false;
+        }
+
+       
 
         private void Sua()
         {
