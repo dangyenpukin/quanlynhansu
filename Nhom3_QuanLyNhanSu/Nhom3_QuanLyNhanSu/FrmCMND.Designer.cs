@@ -54,7 +54,7 @@
             // 
             // txtCMND
             // 
-            this.txtCMND.Location = new System.Drawing.Point(98, 20);
+            this.txtCMND.Location = new System.Drawing.Point(98, 17);
             this.txtCMND.Name = "txtCMND";
             this.txtCMND.Size = new System.Drawing.Size(149, 20);
             this.txtCMND.TabIndex = 1;
@@ -80,7 +80,7 @@
             // 
             // txtNoiCap
             // 
-            this.txtNoiCap.Location = new System.Drawing.Point(98, 95);
+            this.txtNoiCap.Location = new System.Drawing.Point(98, 92);
             this.txtNoiCap.Name = "txtNoiCap";
             this.txtNoiCap.Size = new System.Drawing.Size(149, 20);
             this.txtNoiCap.TabIndex = 7;
@@ -89,7 +89,7 @@
             // dtNgayCap
             // 
             this.dtNgayCap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtNgayCap.Location = new System.Drawing.Point(98, 57);
+            this.dtNgayCap.Location = new System.Drawing.Point(98, 54);
             this.dtNgayCap.Name = "dtNgayCap";
             this.dtNgayCap.Size = new System.Drawing.Size(149, 20);
             this.dtNgayCap.TabIndex = 4;
@@ -97,23 +97,26 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(149, 123);
+            this.button1.BackColor = System.Drawing.Color.Cyan;
+            this.button1.Location = new System.Drawing.Point(310, 51);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(46, 23);
             this.button1.TabIndex = 9;
             this.button1.Text = "Lưu";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Cyan;
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(201, 123);
+            this.button2.Location = new System.Drawing.Point(383, 51);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(46, 23);
             this.button2.TabIndex = 10;
             this.button2.Text = "Đóng";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblIconCMND
             // 
@@ -147,9 +150,9 @@
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.CancelButton = this.button2;
-            this.ClientSize = new System.Drawing.Size(284, 156);
+            this.ClientSize = new System.Drawing.Size(460, 144);
             this.Controls.Add(this.lblIconNoiCap);
             this.Controls.Add(this.lblIconNgayCap);
             this.Controls.Add(this.lblIconCMND);

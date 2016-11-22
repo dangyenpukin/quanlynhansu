@@ -108,5 +108,10 @@ namespace Nhom3_QuanLyNhanSu
         {
             validate.Check(new ValidateParam(ValidateType.NULL, txtNoiCap.Text, lblIconNoiCap, "Vui lòng nhập nơi cấp"));
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
