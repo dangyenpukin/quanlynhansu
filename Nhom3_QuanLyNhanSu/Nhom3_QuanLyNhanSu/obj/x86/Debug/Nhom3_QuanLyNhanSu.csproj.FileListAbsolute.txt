@@ -87,5 +87,11 @@ E:\thuc tap nhom\bai mẫu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNha
 E:\thuc tap nhom\bai mẫu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\RdlCompile.compiled
 E:\thuc tap nhom\bai mẫu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
 E:\thuc tap nhom\bai mẫu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.xml
+<<<<<<< HEAD
 C:\Users\Le Son\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.exe
 C:\Users\Le Son\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.pdb
+=======
+C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.exe
+C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.pdb
+C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.csprojResolveAssemblyReference.cache
+>>>>>>> refs/remotes/origin/master
