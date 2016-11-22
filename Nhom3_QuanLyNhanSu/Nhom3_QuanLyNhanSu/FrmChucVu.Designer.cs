@@ -34,8 +34,11 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtKey = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblMessage = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.MACV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TENCV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PhuCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtPhuCap = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,10 +57,6 @@
             this.btnDong = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
-            this.MACV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TENCV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhuCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SoNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -69,7 +68,7 @@
             this.groupBox2.Controls.Add(this.btnSearch);
             this.groupBox2.Controls.Add(this.txtKey);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Location = new System.Drawing.Point(14, 263);
+            this.groupBox2.Location = new System.Drawing.Point(17, 229);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(357, 103);
             this.groupBox2.TabIndex = 7;
@@ -114,25 +113,12 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Nội Dung Tìm:";
             // 
-            // lblMessage
-            // 
-            this.lblMessage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessage.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblMessage.Location = new System.Drawing.Point(14, 9);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(924, 39);
-            this.lblMessage.TabIndex = 4;
-            this.lblMessage.Text = "label3";
-            this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -140,13 +126,45 @@
             this.TENCV,
             this.PhuCap,
             this.SoNV});
-            this.dataGridView1.Location = new System.Drawing.Point(386, 65);
+            this.dataGridView1.Location = new System.Drawing.Point(389, 31);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(552, 301);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting);
+            // 
+            // MACV
+            // 
+            this.MACV.DataPropertyName = "MACV";
+            this.MACV.FillWeight = 80F;
+            this.MACV.HeaderText = "Mã Chức Vụ";
+            this.MACV.Name = "MACV";
+            this.MACV.ReadOnly = true;
+            // 
+            // TENCV
+            // 
+            this.TENCV.DataPropertyName = "TEN_CV";
+            this.TENCV.FillWeight = 200F;
+            this.TENCV.HeaderText = "Tên Chức Vụ";
+            this.TENCV.Name = "TENCV";
+            this.TENCV.ReadOnly = true;
+            // 
+            // PhuCap
+            // 
+            this.PhuCap.DataPropertyName = "PHU_CAP";
+            this.PhuCap.HeaderText = "Phụ Cấp";
+            this.PhuCap.Name = "PhuCap";
+            this.PhuCap.ReadOnly = true;
+            this.PhuCap.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // SoNV
+            // 
+            this.SoNV.DataPropertyName = "SONV";
+            this.SoNV.FillWeight = 50F;
+            this.SoNV.HeaderText = "Số NV";
+            this.SoNV.Name = "SoNV";
+            this.SoNV.ReadOnly = true;
             // 
             // groupBox1
             // 
@@ -161,7 +179,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaChucVu);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(14, 65);
+            this.groupBox1.Location = new System.Drawing.Point(17, 31);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(357, 192);
             this.groupBox1.TabIndex = 5;
@@ -266,90 +284,63 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(464, 374);
+            this.btnLuu.BackColor = System.Drawing.Color.Coral;
+            this.btnLuu.Location = new System.Drawing.Point(70, 357);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 23);
+            this.btnLuu.Size = new System.Drawing.Size(87, 38);
             this.btnLuu.TabIndex = 18;
             this.btnLuu.Text = "Lưu";
-            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.UseVisualStyleBackColor = false;
             this.btnLuu.Visible = false;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(551, 374);
+            this.btnHuy.BackColor = System.Drawing.Color.Coral;
+            this.btnHuy.Location = new System.Drawing.Point(210, 359);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 23);
+            this.btnHuy.Size = new System.Drawing.Size(87, 38);
             this.btnHuy.TabIndex = 19;
             this.btnHuy.Text = "Hủy Bỏ";
-            this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.UseVisualStyleBackColor = false;
             this.btnHuy.Visible = false;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(863, 374);
+            this.btnDong.BackColor = System.Drawing.Color.Coral;
+            this.btnDong.Location = new System.Drawing.Point(772, 357);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(75, 23);
+            this.btnDong.Size = new System.Drawing.Size(87, 38);
             this.btnDong.TabIndex = 17;
             this.btnDong.Text = "Đóng";
-            this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.UseVisualStyleBackColor = false;
             this.btnDong.Visible = false;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(744, 374);
+            this.btnSua.BackColor = System.Drawing.Color.Coral;
+            this.btnSua.Location = new System.Drawing.Point(564, 357);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(87, 38);
             this.btnSua.TabIndex = 15;
             this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.UseVisualStyleBackColor = false;
             this.btnSua.Visible = false;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(663, 374);
+            this.btnThem.BackColor = System.Drawing.Color.Coral;
+            this.btnThem.Location = new System.Drawing.Point(389, 359);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(87, 38);
             this.btnThem.TabIndex = 16;
             this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.UseVisualStyleBackColor = false;
             this.btnThem.Visible = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
-            // MACV
-            // 
-            this.MACV.DataPropertyName = "MACV";
-            this.MACV.FillWeight = 80F;
-            this.MACV.HeaderText = "Mã Chức Vụ";
-            this.MACV.Name = "MACV";
-            this.MACV.ReadOnly = true;
-            // 
-            // TENCV
-            // 
-            this.TENCV.DataPropertyName = "TEN_CV";
-            this.TENCV.FillWeight = 200F;
-            this.TENCV.HeaderText = "Tên Chức Vụ";
-            this.TENCV.Name = "TENCV";
-            this.TENCV.ReadOnly = true;
-            // 
-            // PhuCap
-            // 
-            this.PhuCap.DataPropertyName = "PHU_CAP";
-            this.PhuCap.HeaderText = "Phụ Cấp";
-            this.PhuCap.Name = "PhuCap";
-            this.PhuCap.ReadOnly = true;
-            this.PhuCap.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // SoNV
-            // 
-            this.SoNV.DataPropertyName = "SONV";
-            this.SoNV.FillWeight = 50F;
-            this.SoNV.HeaderText = "Số NV";
-            this.SoNV.Name = "SoNV";
-            this.SoNV.ReadOnly = true;
             // 
             // FrmChucVu
             // 
@@ -364,7 +355,6 @@
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FrmChucVu";
             this.Text = "Chức Vụ";
@@ -385,7 +375,6 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.TextBox txtKey;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtSoNV;
