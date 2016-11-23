@@ -90,3 +90,27 @@ E:\thuc tap nhom\bai mẫu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNha
 C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.exe
 C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.pdb
 C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.csprojResolveAssemblyReference.cache
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.exe
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.pdb
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.csprojResolveAssemblyReference.cache
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmChucVu.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FormConnect.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FormStart.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmCMND.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmDanToc.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmDoiMatKhau.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmHome.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmLogin.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmLuong.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmMain.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmNhanVien.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmPhongBan.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmThanNhan.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmTonGiao.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmTrinhDo.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Properties.Resources.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_ChucVu.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_LuongThucLanh.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_NhanVien.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_PhongBan.resources
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.csproj.GenerateResource.Cache
