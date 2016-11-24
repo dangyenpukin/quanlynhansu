@@ -116,3 +116,36 @@ C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyN
 C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Nhom3_QuanLyNhanSu.exe
 C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Nhom3_QuanLyNhanSu.pdb
 C:\Users\Tuanbita\Documents\GitHub\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.xml
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.exe
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.pdb
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Nhom3_QuanLyNhanSu.exe
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Nhom3_QuanLyNhanSu.pdb
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.xml
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.csprojResolveAssemblyReference.cache
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmChucVu.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FormConnect.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FormStart.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmCMND.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmDanToc.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmDoiMatKhau.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmHome.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmLogin.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmLuong.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmMain.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmNhanVien.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmPhongBan.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmThanNhan.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmTonGiao.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.FrmTrinhDo.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Properties.Resources.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_ChucVu.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_LuongThucLanh.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_NhanVien.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.Reports.Frm_Report_PhongBan.resources
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\Nhom3_QuanLyNhanSu.csproj.GenerateResource.Cache
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\RdlCompile.cache
+E:\thuc tap nhom\quanlynhansu\Nhom3_QuanLyNhanSu\Nhom3_QuanLyNhanSu\obj\x86\Debug\RdlCompile.compiled

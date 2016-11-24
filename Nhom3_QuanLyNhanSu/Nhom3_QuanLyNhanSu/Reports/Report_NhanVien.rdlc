@@ -1,102 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
-  <DataSources>
-    <DataSource Name="Nhom3_QuanLyNhanSuEntities">
-      <ConnectionProperties>
-        <DataProvider>System.Data.DataSet</DataProvider>
-        <ConnectString>/* Local Connection */</ConnectString>
-      </ConnectionProperties>
-      <rd:DataSourceID>7d1ae4da-f2b2-4735-86dc-4a44cdf1f9b5</rd:DataSourceID>
-    </DataSource>
-  </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet1">
-      <Fields>
-        <Field Name="Day">
-          <DataField>Day</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="HoTenNV">
-          <DataField>HoTenNV</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Month">
-          <DataField>Month</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="SumItem">
-          <DataField>SumItem</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Title">
-          <DataField>Title</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Year">
-          <DataField>Year</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>Nhom3_QuanLyNhanSuEntities</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:DataSetName>Nhom3_QuanLyNhanSu.Entities</rd:DataSetName>
-        <rd:TableName>ReportPage</rd:TableName>
-        <rd:ObjectDataSourceType>Nhom3_QuanLyNhanSu.Entities.ReportPage, Nhom3_QuanLyNhanSu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="DataSet2">
-      <Fields>
-        <Field Name="ChucVu">
-          <DataField>ChucVu</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="GioiTinh">
-          <DataField>GioiTinh</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Ho">
-          <DataField>Ho</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="MaNV">
-          <DataField>MaNV</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="NgaySinh">
-          <DataField>NgaySinh</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Phong">
-          <DataField>Phong</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="SoDT">
-          <DataField>SoDT</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="STT">
-          <DataField>STT</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Ten">
-          <DataField>Ten</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>Nhom3_QuanLyNhanSuEntities</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:DataSetName>Nhom3_QuanLyNhanSu.Entities</rd:DataSetName>
-        <rd:TableName>ReportNhanVien</rd:TableName>
-        <rd:ObjectDataSourceType>Nhom3_QuanLyNhanSu.Entities.ReportNhanVien, Nhom3_QuanLyNhanSu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
-      </rd:DataSetInfo>
-    </DataSet>
-  </DataSets>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
       <Textbox Name="Textbox2">
@@ -106,7 +9,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>BỘ GIÁO DỤC VÀ ĐÀO TẠO</Value>
+                <Value>BỘ QUỐC PHÒNG</Value>
                 <Style>
                   <FontWeight>Bold</FontWeight>
                 </Style>
@@ -119,7 +22,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ ĐỒNG NAI</Value>
+                <Value>TRƯỜNG HỌC VIỆN KỸ THUẬT QUÂN SỰ</Value>
                 <Style>
                   <FontWeight>Bold</FontWeight>
                 </Style>
@@ -200,36 +103,36 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.5191in</Width>
+              <Width>1.31851cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.80671in</Width>
+              <Width>2.04904cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.20362in</Width>
+              <Width>3.05719cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.61107in</Width>
+              <Width>1.55212cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.03815in</Width>
+              <Width>2.6369cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.87947in</Width>
+              <Width>2.23385cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.23946in</Width>
+              <Width>3.14823cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.18738in</Width>
+              <Width>3.01595cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.97904in</Width>
+              <Width>2.48676cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.58419in</Height>
+              <Height>1.48384cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -756,7 +659,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.58419in</Height>
+              <Height>1.48384cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -1229,12 +1132,12 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.9685in</Width>
+              <Width>4.99999cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.62361in</Height>
+              <Height>1.58397cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -1354,12 +1257,12 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>4.54735in</Width>
+              <Width>11.55027cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.23622in</Height>
+              <Height>0.6cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -1468,12 +1371,12 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>8.464in</Width>
+              <Width>21.49856cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.29675in</Height>
+              <Height>0.75374cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -1542,7 +1445,7 @@
         <DataSetName>DataSet1</DataSetName>
         <Top>3.0657cm</Top>
         <Left>0.3175cm</Left>
-        <Height>0.75375cm</Height>
+        <Height>0.75374cm</Height>
         <Width>21.49856cm</Width>
         <ZIndex>5</ZIndex>
         <Style>
@@ -1616,12 +1519,12 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>3.28219in</Width>
+              <Width>8.33676cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.40289in</Height>
+              <Height>1.02334cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -1730,6 +1633,104 @@
     <ColumnSpacing>0.13cm</ColumnSpacing>
     <Style />
   </Page>
-  <rd:ReportID>2847b1c5-6665-4828-a06d-d5b561464c36</rd:ReportID>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Nhom3_QuanLyNhanSuEntities">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>7d1ae4da-f2b2-4735-86dc-4a44cdf1f9b5</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>Nhom3_QuanLyNhanSuEntities</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Day">
+          <DataField>Day</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="HoTenNV">
+          <DataField>HoTenNV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Month">
+          <DataField>Month</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="SumItem">
+          <DataField>SumItem</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Title">
+          <DataField>Title</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Year">
+          <DataField>Year</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Nhom3_QuanLyNhanSu.Entities</rd:DataSetName>
+        <rd:TableName>ReportPage</rd:TableName>
+        <rd:ObjectDataSourceType>Nhom3_QuanLyNhanSu.Entities.ReportPage, Nhom3_QuanLyNhanSu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet2">
+      <Query>
+        <DataSourceName>Nhom3_QuanLyNhanSuEntities</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="ChucVu">
+          <DataField>ChucVu</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GioiTinh">
+          <DataField>GioiTinh</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Ho">
+          <DataField>Ho</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MaNV">
+          <DataField>MaNV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NgaySinh">
+          <DataField>NgaySinh</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Phong">
+          <DataField>Phong</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SoDT">
+          <DataField>SoDT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STT">
+          <DataField>STT</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Ten">
+          <DataField>Ten</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Nhom3_QuanLyNhanSu.Entities</rd:DataSetName>
+        <rd:TableName>ReportNhanVien</rd:TableName>
+        <rd:ObjectDataSourceType>Nhom3_QuanLyNhanSu.Entities.ReportNhanVien, Nhom3_QuanLyNhanSu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>2847b1c5-6665-4828-a06d-d5b561464c36</rd:ReportID>
 </Report>
